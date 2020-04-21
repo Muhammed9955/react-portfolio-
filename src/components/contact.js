@@ -26,29 +26,13 @@ class Contact extends Component {
             <div className="contact-list">
               <List>
                 <ListItem>
-                  <ListItemContent
-                    style={{ fontSize: "30px", fontFamily: "Anton" }}
-                  >
-                    <i className="phone icon" aria-hidden="true" />
-                    (+20) 1100214520
+                  <ListItemContent icon="phone">
+                    (+20) 1556252658 (whatsApp)
                   </ListItemContent>
                 </ListItem>
-
                 <ListItem>
-                  <ListItemContent
-                    style={{ fontSize: "30px", fontFamily: "Anton" }}
-                  >
-                    <i class="whatsapp icon" aria-hidden="true"></i>
-                    (+20) 1556252658{" "}
-                  </ListItemContent>
-                </ListItem>
-
-                <ListItem>
-                  <ListItemContent
-                    style={{ fontSize: "30px", fontFamily: "Anton" }}
-                  >
-                    <i class="envelope icon"></i>
-                    github.com/Muhammed9955
+                  <ListItemContent icon="email">
+                    muhammed.webdeveloper@gmail.com
                   </ListItemContent>
                 </ListItem>
               </List>

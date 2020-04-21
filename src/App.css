@@ -125,7 +125,7 @@
 .social-links {
   display: flex;
   justify-content: space-between;
-  width: 50%;
+  width: 60%;
   margin: auto;
 }
 
@@ -137,4 +137,27 @@
 .card-actions {
   display: flex;
   justify-content: space-between;
+}
+
+/* @media all and (max-width: 699px) and (min-width: 520px), (min-width: 1151px) { */
+@media all and (max-width: 600px) {
+  .banner-text h1 {
+    font-size: 30px;
+  }
+  .social-links {
+    width: 80%;
+  }
+  .social-links i {
+    font-size: 3em;
+  }
+  .contact-body h2 {
+    font-size: 30px;
+  }
+  .contact-list-item {
+    font-size: 30px;
+  }
+  .contact-list i {
+    font-size: 30px;
+    padding-right: 3rem;
+  }
 }
