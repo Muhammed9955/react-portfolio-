@@ -1,97 +1,88 @@
-import React, { Component } from 'react';
-import { Grid, Cell } from 'react-mdl';
-import Education from './education';
-import Experience from './experience';
-import Skills from './skills';
-
+import React, { Component } from "react";
+import { Grid, Cell } from "react-mdl";
+import Education from "./education";
+import Experience from "./experience";
+import Skills from "./skills";
 
 class Resume extends Component {
   render() {
-    return(
+    return (
       <div>
         <Grid>
           <Cell col={4}>
-            <div style={{textAlign: 'center'}}>
+            <div style={{ textAlign: "center" }}>
               <img
-                src="https://www.shareicon.net/download/2015/09/18/103157_man_512x512.png"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRr9ZfG08qdPvwtMRI_TyQI4UuPXeUSMLl5LkszmhqmYAn5-dPy&usqp=CAU"
                 alt="avatar"
-                style={{height: '200px'}}
-                 />
+                style={{ height: "200px" }}
+              />
             </div>
 
-            <h2 style={{paddingTop: '2em'}}>Paul Hanna</h2>
-            <h4 style={{color: 'grey'}}>Programmer</h4>
-            <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
-            <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
+            <h2 style={{ paddingTop: "2em", color: "#333333	" }}>
+              Muahmmed Khaled{" "}
+            </h2>
+            <h4>Full StackWeb Developer </h4>
+            <hr style={{ borderTop: "3px solid #833fb2", width: "50%" }} />
+            <p>
+              I'm fullstack web developer (specialized in MERN STACK) who decide
+              to change his career form civil engineer to be web developer
+              because I love programming, AI, Robotics.
+            </p>
+
+            <hr style={{ borderTop: "3px solid #833fb2", width: "50%" }} />
             <h5>Address</h5>
-            <p>1 Hacker Way Menlo Park, 94025</p>
+            <p>ALexandria , Egypt</p>
             <h5>Phone</h5>
-            <p>(123) 456-7890</p>
+            <p> (+20) 1556252658 </p>
             <h5>Email</h5>
-            <p>someone@example.com</p>
-            <h5>Web</h5>
-            <p>mywebsite.com</p>
-            <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
+            <p>Muhammed.webdeveloper@gmail.com</p>
+            {/* <h5>Web</h5>
+            <p>mywebsite.com</p> */}
+            <hr style={{ borderTop: "3px solid #833fb2", width: "50%" }} />
           </Cell>
           <Cell className="resume-right-col" col={8}>
             <h2>Education</h2>
 
+            <Education
+              startYear={2014}
+              endYear={2019}
+              schoolName="AAST"
+              schoolDescription="I have civil enginring Bachelor degree from Arab Academy for Science Technology & Maritime Transport University"
+            />
 
             <Education
-              startYear={2002}
-              endYear={2006}
-              schoolName="My University"
-              schoolDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
-               />
+              startYear={`June-2019`}
+              endYear={`Aprail-2020`}
+              schoolName="Self study "
+              schoolDescription="I have been learning full stack web development for about 10 months from Udemy courses, Youtube and some Practice"
+            />
+            <hr style={{ borderTop: "3px solid #e22947" }} />
 
-               <Education
-                 startYear={2007}
-                 endYear={2009}
-                 schoolName="My 2nd University"
-                 schoolDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
-                  />
-                <hr style={{borderTop: '3px solid #e22947'}} />
-
-              <h2>Experience</h2>
+            <h2>Experience</h2>
 
             <Experience
-              startYear={2009}
-              endYear={2012}
-              jobName="First Job"
-              jobDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
-              />
+              jobName="Front end skils:"
+              jobDescription="Front end:  Javascript ES6, html, css, sass, React, Redux, Redux-saga, contextApi, bootstrap, sementic ui, matrial ui,styled-components, React-Hooks,GraphQL-Apollo,
+              React-performance,testing mobile-support, progressive-web-app, 
+              Testing,Jest,Enzyme,mocks, webpack"
+            />
 
-              <Experience
-                startYear={2012}
-                endYear={2016}
-                jobName="Second Job"
-                jobDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
-                />
-              <hr style={{borderTop: '3px solid #e22947'}} />
-              <h2>Skills</h2>
-              <Skills
-                skill="javascript"
-                progress={100}
-                />
-                <Skills
-                  skill="HTML/CSS"
-                  progress={80}
-                  />
-                  <Skills
-                    skill="NodeJS"
-                    progress={50}
-                    />
-                    <Skills
-                      skill="React"
-                      progress={25}
-                      />
+            <Experience
+              jobName="BackEnd skils :"
+              jobDescription=" nodeJs, express, APIs, Mongodb, Firebase. 
 
-
+              And I'm looking forward to learn more technologies like nestJs, NextJs, Gatsby, React Native, flutter. "
+            />
+            <hr style={{ borderTop: "3px solid #e22947" }} />
+            <h2>Skills</h2>
+            <Skills skill="javascript" progress={80} />
+            <Skills skill="HTML/CSS" progress={85} />
+            <Skills skill="NodeJS" progress={50} />
+            <Skills skill="React" progress={65} />
           </Cell>
         </Grid>
       </div>
-    )
+    );
   }
 }
 
