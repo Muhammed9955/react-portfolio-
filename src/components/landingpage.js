@@ -4,7 +4,15 @@ import { Grid, Cell } from "react-mdl";
 class Landing extends Component {
   render() {
     return (
-      <div style={{ width: "100%", margin: "auto" }}>
+      <div
+        style={{
+          width: "100%",
+          // margin: "auto",
+          // display: "block",
+          // scrollBehavior: "smooth",
+          textAlign: "center",
+        }}
+      >
         <Grid className="landing-grid">
           <Cell col={12}>
             <img
