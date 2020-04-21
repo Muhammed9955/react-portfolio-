@@ -11,7 +11,7 @@ import {
 import projectsData from "./projectsData";
 
 export default function ProjectCard({ card }) {
-  const { background, name, github, liveDemo } = card;
+  const { background, name, github, liveDemo, des } = card;
   return (
     <div>
       <Cell col={3}>
@@ -25,9 +25,7 @@ export default function ProjectCard({ card }) {
           >
             {name}
           </CardTitle>
-          <CardText>
-            clothing e-commerce react app (react ,redux, firebase)
-          </CardText>
+          <CardText> {`{${des}}`} </CardText>
           <CardActions
             border
             style={{ display: "flex", justifyContent: "space-between" }}

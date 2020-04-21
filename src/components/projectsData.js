@@ -2,6 +2,7 @@ const projectsData = [
   {
     id: "0",
     name: "Crwn-clothing",
+    des: "clothing e-commerce react app (react ,redux, firebase)",
     background:
       "url(https://www.techythought.com/uploads/category/react-img.png) center / cover",
     github: "https://github.com/Muhammed9955/clothing-e-commerce-app",
@@ -10,6 +11,8 @@ const projectsData = [
   {
     id: "1",
     name: "DevConnector",
+    des:
+      "Small social network for developers to share posts and get closer to other developers (React , NodeJS, Mongodb)",
     background:
       "url(https://www.techythought.com/uploads/category/react-img.png) center / cover",
     github: "https://github.com/Muhammed9955/DevConnector",
@@ -18,6 +21,8 @@ const projectsData = [
   {
     id: "2",
     name: "Beach Resort",
+    des:
+      "Hotel website using, react, contextApi for state management, contentful for assets management.",
     background:
       "url(https://www.techythought.com/uploads/category/react-img.png) center / cover",
     github: "https://github.com/Muhammed9955/Beach-Resort-",
@@ -26,6 +31,8 @@ const projectsData = [
   {
     id: "3",
     name: "BookFinder",
+    des:
+      "search engine for books using react, contextApi, Google books API, bootstrap, Axios.",
     background:
       "url(https://www.techythought.com/uploads/category/react-img.png) center / cover",
     github: "https://github.com/Muhammed9955/react-book-finder",
