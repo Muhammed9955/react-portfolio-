@@ -8,7 +8,6 @@ import {
   Button,
   Cell,
 } from "react-mdl";
-import projectsData from "./projectsData";
 
 export default function ProjectCard({ card }) {
   const { background, name, github, liveDemo, des } = card;
