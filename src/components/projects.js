@@ -2,7 +2,11 @@ import React, { Component } from "react";
 import ProjectCard from "./ProjectCard";
 
 import { Tabs, Tab, Grid, Cell } from "react-mdl";
-import projectsData from "./projectsData";
+import {
+  reactProjects,
+  mernStackProjects,
+  fireBaseProjects,
+} from "./projectsData";
 
 class Projects extends Component {
   constructor(props) {
@@ -15,7 +19,7 @@ class Projects extends Component {
       return (
         <div className="projects-grid">
           <Grid>
-            {projectsData.map((card) => (
+            {reactProjects.map((card) => (
               <ProjectCard key={card.id} card={card} />
             ))}
           </Grid>
@@ -23,8 +27,22 @@ class Projects extends Component {
       );
     } else if (this.state.activeTab === 1) {
       return (
-        <div>
-          <h1>This is MongoDB</h1>
+        <div className="projects-grid">
+          <Grid>
+            {mernStackProjects.map((card) => (
+              <ProjectCard key={card.id} card={card} />
+            ))}
+          </Grid>
+        </div>
+      );
+    } else if (this.state.activeTab === 2) {
+      return (
+        <div className="projects-grid">
+          <Grid>
+            {fireBaseProjects.map((card) => (
+              <ProjectCard key={card.id} card={card} />
+            ))}
+          </Grid>
         </div>
       );
     }
@@ -39,8 +57,8 @@ class Projects extends Component {
           ripple
         >
           <Tab>React</Tab>
-
           <Tab>MongoDB</Tab>
+          <Tab>FireBase</Tab>
         </Tabs>
 
         <Grid>

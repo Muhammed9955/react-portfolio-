@@ -1,23 +1,4 @@
-const projectsData = [
-  {
-    id: "0",
-    name: "Crwn-clothing",
-    des: "clothing e-commerce react app (react ,redux, firebase)",
-    background:
-      "url(https://www.techythought.com/uploads/category/react-img.png) center / cover",
-    github: "https://github.com/Muhammed9955/clothing-e-commerce-app",
-    liveDemo: "https://crwn-live.herokuapp.com/",
-  },
-  {
-    id: "1",
-    name: "DevConnector",
-    des:
-      "Small social network for developers to share posts and get closer to other developers (React , NodeJS, Mongodb)",
-    background:
-      "url(https://www.techythought.com/uploads/category/react-img.png) center / cover",
-    github: "https://github.com/Muhammed9955/DevConnector",
-    liveDemo: "https://serene-ridge-93937.herokuapp.com/",
-  },
+export const reactProjects = [
   {
     id: "2",
     name: "Beach Resort",
@@ -39,4 +20,27 @@ const projectsData = [
     liveDemo: "https://react-books-finder.netlify.com/",
   },
 ];
-export default projectsData;
+
+export const mernStackProjects = [
+  {
+    id: "1",
+    name: "DevConnector",
+    des:
+      "Small social network for developers to share posts and get closer to other developers (React , NodeJS, Mongodb)",
+    background:
+      "url(https://www.techythought.com/uploads/category/react-img.png) center / cover",
+    github: "https://github.com/Muhammed9955/DevConnector",
+    liveDemo: "https://serene-ridge-93937.herokuapp.com/",
+  },
+];
+export const fireBaseProjects = [
+  {
+    id: "0",
+    name: "Crwn-clothing",
+    des: "clothing e-commerce react app (react ,redux, firebase)",
+    background:
+      "url(https://www.techythought.com/uploads/category/react-img.png) center / cover",
+    github: "https://github.com/Muhammed9955/clothing-e-commerce-app",
+    liveDemo: "https://crwn-live.herokuapp.com/",
+  },
+];
