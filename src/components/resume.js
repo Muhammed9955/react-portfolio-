@@ -14,19 +14,20 @@ class Resume extends Component {
               <img
                 src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRr9ZfG08qdPvwtMRI_TyQI4UuPXeUSMLl5LkszmhqmYAn5-dPy&usqp=CAU"
                 alt="avatar"
-                style={{ height: "200px" }}
+                style={{ height: "250px", width: "250px" }}
               />
             </div>
 
             <h2 style={{ paddingTop: "2em", color: "#333333	" }}>
               Muahmmed Khaled{" "}
             </h2>
-            <h4>Full StackWeb Developer </h4>
+            <h4>Full Stack Web Developer </h4>
             <hr style={{ borderTop: "3px solid #833fb2", width: "50%" }} />
             <p>
-              I'm fullstack web developer (specialized in MERN STACK) who decide
-              to change his career form civil engineer to be web developer
-              because I love programming, AI, Robotics.
+              I'm full stack web developer (specialized in MERN STACK) who
+              decide to change his career form civil engineer to be web
+              developer because I love building things, AI, Robotics and
+              programming in general.
             </p>
 
             <hr style={{ borderTop: "3px solid #833fb2", width: "50%" }} />

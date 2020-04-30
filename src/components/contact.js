@@ -14,9 +14,10 @@ class Contact extends Component {
               style={{ height: "250px" }}
             />
             <p style={{ width: "75%", margin: "auto", paddingTop: "1em" }}>
-              I'm fullstack web developer (specialized in MERN STACK) who decide
-              to change his career form civil engineer to be web developer
-              because I love programming, AI, Robotics.
+              I'm full stack web developer (specialized in MERN STACK) who
+              decide to change his career form civil engineer to be web
+              developer because I love building things, AI, Robotics and
+              programming in general.
             </p>
           </Cell>
           <Cell col={6}>
