@@ -24,7 +24,7 @@ export default function ProjectCard({ card }) {
           >
             {name}
           </CardTitle>
-          <CardText> {`{${des}}`} </CardText>
+          <CardText> {`${des}`} </CardText>
           <CardActions
             border
             style={{ display: "flex", justifyContent: "space-between" }}

@@ -57,7 +57,7 @@ class Projects extends Component {
           ripple
         >
           <Tab>React</Tab>
-          <Tab>MongoDB</Tab>
+          <Tab>MERN Stack</Tab>
           <Tab>FireBase</Tab>
         </Tabs>
 

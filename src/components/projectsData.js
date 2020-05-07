@@ -13,11 +13,21 @@ export const reactProjects = [
     id: "3",
     name: "BookFinder",
     des:
-      "search engine for books using react, contextApi, Google books API, bootstrap, Axios.",
+      "search engine for books using react,ContextAPi for state management, Google books API, bootstrap, Axios.",
     background:
       "url(https://www.techythought.com/uploads/category/react-img.png) center / cover",
     github: "https://github.com/Muhammed9955/react-book-finder",
     liveDemo: "https://react-books-finder.netlify.com/",
+  },
+  {
+    id: "4",
+    name: "Phone Store",
+    des:
+      "Phone Store app using React,ContextAPi for state management, Bootstrap, paypal-express-checkout for payment.",
+    background:
+      "url(https://www.techythought.com/uploads/category/react-img.png) center / cover",
+    github: "https://github.com/Muhammed9955/react-phone-store",
+    liveDemo: "https://react-phone-store-95.netlify.app/",
   },
 ];
 
