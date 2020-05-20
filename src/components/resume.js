@@ -14,7 +14,10 @@ class Resume extends Component {
               <img
                 src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRr9ZfG08qdPvwtMRI_TyQI4UuPXeUSMLl5LkszmhqmYAn5-dPy&usqp=CAU"
                 alt="avatar"
-                style={{ height: "250px", width: "250px" }}
+                style={{
+                  height: "250px",
+                  width: "250px",
+                }}
               />
             </div>
 
@@ -53,7 +56,7 @@ class Resume extends Component {
 
             <Education
               startYear={`June-2019`}
-              endYear={`Aprail-2020`}
+              endYear={`June-2020`}
               schoolName="Self study "
               schoolDescription="I have been learning full stack web development for about 10 months from Udemy courses, Youtube and some Practice"
             />
@@ -62,17 +65,19 @@ class Resume extends Component {
             <h2>Experience</h2>
 
             <Experience
-              jobName="Front end skils:"
-              jobDescription="Front end:  Javascript ES6, html, css, sass, React, Redux, Redux-saga, contextApi, bootstrap, sementic ui, matrial ui,styled-components, React-Hooks,GraphQL-Apollo,
+              jobName="FrontEnd skils:"
+              jobDescription=" Javascript ES6, html, css, sass, React, Redux, Redux-saga, contextApi, bootstrap, sementic ui, matrial ui,styled-components, React-Hooks,GraphQL-Apollo,
               React-performance,testing mobile-support, progressive-web-app, 
-              Testing,Jest,Enzyme,mocks, webpack"
+              Testing,Jest,Enzyme,mocks, webpack."
             />
 
             <Experience
               jobName="BackEnd skils :"
-              jobDescription=" nodeJs, express, APIs, Mongodb, Firebase. 
-
-              And I'm looking forward to learn more technologies like nestJs, NextJs, Gatsby, React Native, flutter. "
+              jobDescription=" NodeJs, express, MVC, SQL(sequelize), NoSql(mongodb) , sending Emails, JWT for Auth, Validation (Express-validator), File upload and download, pagination, REST APIs, GraphQL APIs, prisma, grapql -yoga, testing. "
+            />
+            <Experience
+              jobName="DevOpes & Advanced skils :"
+              jobDescription=" Typescript, Doker, CI/CD, Redis, code analysis, performance, Testing, security."
             />
             <hr style={{ borderTop: "3px solid #e22947" }} />
             <h2>Skills</h2>

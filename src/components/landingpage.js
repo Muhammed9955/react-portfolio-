@@ -18,7 +18,13 @@ class Landing extends Component {
         <Grid className="landing-grid">
           <Cell col={12}>
             <img
-              style={{ height: "350px", width: "280px" }}
+              style={{
+                height: "300px",
+                width: "300px",
+                borderRadius: "500px",
+                // border: "3px solid #BADA55",
+                padding: "0px",
+              }}
               src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRr9ZfG08qdPvwtMRI_TyQI4UuPXeUSMLl5LkszmhqmYAn5-dPy&usqp=CAU"
               alt="avatar"
               className="avatar-img"
