@@ -61,7 +61,7 @@ class Projects extends Component {
 
   render() {
     return (
-      <div>
+      <div style={{ marginLeft: "4rem" }}>
         <Tabs
           activeTab={this.state.activeTab}
           onChange={(tabId) => this.setState({ activeTab: tabId })}

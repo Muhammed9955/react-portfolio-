@@ -60,16 +60,15 @@ export const UX_projects = [
     name: "MyMeubel",
     des: `MyMeubel is e-commerce website for furniture
     also it's mobile responsive`,
-    background: "url(https://i.ibb.co/3rnh1bR/Group-652.png) center / cover",
+    background: "url(https://i.ibb.co/dcDJhZm/Group-652.png ) center / cover",
     behance: "https://www.behance.net/gallery/103359437/MyMeubel",
     liveDemo:
       "https://xd.adobe.com/view/38e27162-4190-464c-6d71-939627b48e40-4ed3/",
   },
   {
     id: "1",
-    name: "MyMeubel Responsive",
-    des: `MyMeubel is e-commerce website for furniture
-    also it's mobile responsive`,
+    name: "MyMeubel res",
+    des: `MyMeubel mobile responsive`,
     background: "url(https://i.ibb.co/HKpWLZ1/Group-654.png) center / cover",
     behance: "https://www.behance.net/gallery/103359437/MyMeubel",
     liveDemo:

@@ -59,7 +59,7 @@ class Resume extends Component {
               startYear={`June-2019`}
               endYear={`June-2020`}
               schoolName="Self study "
-              schoolDescription="I have been learning full stack web development for about 10 months from Udemy courses, Youtube and some Practice"
+              schoolDescription="I have been learning full stack web development for about 10 months from Udemy courses, Youtube and some practice"
             />
             <hr style={{ borderTop: "3px solid #e22947" }} />
 
@@ -82,6 +82,7 @@ class Resume extends Component {
               jobName="BackEnd skils :"
               jobDescription=" NodeJs, express, MVC, SQL(sequelize), NoSql(mongodb) , sending Emails, JWT for Auth, Validation (Express-validator), File upload and download, pagination, REST APIs, GraphQL APIs, prisma, grapql -yoga, testing. "
             />
+            <Experience jobName="UI/UX:" jobDescription="I have been learning UI/UX design from Udemy courses, Youtube and some practice using Adobe xd " />
             {/* <Experience
               jobName="DevOpes & Advanced skils :"
               jobDescription=" Typescript, Doker, CI/CD, Redis, code analysis, performance, Testing, security."
@@ -92,6 +93,7 @@ class Resume extends Component {
             <Skills skill="HTML/CSS" progress={85} />
             <Skills skill="NodeJS" progress={50} />
             <Skills skill="React" progress={65} />
+            <Skills skill="Adobe xd" progress={80} />
           </Cell>
         </Grid>
       </div>
