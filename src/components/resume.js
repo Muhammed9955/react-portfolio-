@@ -69,7 +69,7 @@ class Resume extends Component {
               startYear={`may-2020`}
               endYear={`still working`}
               jobName="Full stack developer:"
-              jobDescription=" I am full stack developer in SenseGrass company , SenseGrass offers 360 farming solutions based on cutting edge technology like Nano-Satellite Mapping, Rover Bots and AI-based mobile & web application that makes farming super-efficient & easy, Techs used are MERN stack , Redux , Material UI , Semantic UI, AWS Services. "
+              jobDescription=" I am full stack developer in senseGrass.com , SenseGrass offers 360 farming solutions based on cutting edge technology like Nano-Satellite Mapping, Rover Bots and AI-based mobile & web application that makes farming super-efficient & easy, Techs used are MERN stack , Redux , Material UI , Semantic UI, AWS Services.  "
             />
             <Experience
               jobName="FrontEnd skils:"
