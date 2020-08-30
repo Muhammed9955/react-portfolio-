@@ -61,17 +61,19 @@ class Projects extends Component {
 
   render() {
     return (
-      <div style={{ marginLeft: "4rem", marginRight: "4rem" }}>
-        <Tabs
-          activeTab={this.state.activeTab}
-          onChange={(tabId) => this.setState({ activeTab: tabId })}
-          ripple
-        >
-          <Tab>UI/UX</Tab>
-          <Tab>React</Tab>
-          <Tab>MERN Stack</Tab>
-          <Tab>FireBase</Tab>
-        </Tabs>
+      <div>
+        <div style={{ marginLeft: "4rem" }}>
+          <Tabs
+            activeTab={this.state.activeTab}
+            onChange={(tabId) => this.setState({ activeTab: tabId })}
+            ripple
+          >
+            <Tab>UI/UX</Tab>
+            <Tab>React</Tab>
+            <Tab>MERN Stack</Tab>
+            <Tab>FireBase</Tab>
+          </Tabs>
+        </div>
 
         <Grid>
           <Cell col={12}>
