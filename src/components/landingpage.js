@@ -30,17 +30,22 @@ class Landing extends Component {
               className="avatar-img"
             />
 
-            <div className="banner-text">
-              <h1>Full Stack Web Developer</h1>
+            <div className="banner-text" style={{ borderRadius: "60px" }}>
+              <h1 style={{ fontSize: "3rem", padding: "1rem" }}>
+                Full Stack Web Developer & UI/UX Designer
+              </h1>
 
               <hr />
 
               <p>
-                HTML/CSS | Bootstrap | JavaScript | React | NodeJS | Express |
-                MongoDB
+                HTML/CSS | JavaScript | React | NodeJS | Express | MongoDB |
+                Material UI | Semantic UI
               </p>
 
-              <div className="social-links">
+              <div
+                className="social-links"
+                style={{ fontSize: ".65rem", padding: ".8rem" }}
+              >
                 {/* Github */}
                 <a
                   href="https://github.com/Muhammed9955"
@@ -65,6 +70,13 @@ class Landing extends Component {
                   target="_blank"
                 >
                   <i class="facebook icon" aria-hidden="true"></i>
+                </a>
+                <a
+                  href="https://www.behance.net/muhammedkhaled4"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <i class="behance icon" aria-hidden="true"></i>
                 </a>
               </div>
             </div>

@@ -27,15 +27,16 @@ class Resume extends Component {
             <h4>Full Stack Web Developer </h4>
             <hr style={{ borderTop: "3px solid #833fb2", width: "50%" }} />
             <p>
-              I'm full stack web developer (specialized in MERN STACK) who
-              decide to change his career form civil engineer to be web
-              developer because I love building things, AI, Robotics and
+              I'm full stack web developer (specialized in MERN STACK) & UI/UX
+              designer who decide to change his career form civil engineer to be
+              web developer because I love building things, AI, Robotics and
               programming in general.
             </p>
 
             <hr style={{ borderTop: "3px solid #833fb2", width: "50%" }} />
             <h5>Address</h5>
             <p>ALexandria , Egypt</p>
+            <p>Aswan , Egypt</p>
             <h5>Phone</h5>
             <p> (+20) 1556252658 </p>
             <h5>Email</h5>
@@ -65,6 +66,12 @@ class Resume extends Component {
             <h2>Experience</h2>
 
             <Experience
+              startYear={`may-2020`}
+              endYear={`still working`}
+              jobName="Full stack developer:"
+              jobDescription=" I am full stack developer in SenseGrass company , SenseGrass offers 360 farming solutions based on cutting edge technology like Nano-Satellite Mapping, Rover Bots and AI-based mobile & web application that makes farming super-efficient & easy, Techs used are MERN stack , Redux , Material UI , Semantic UI, AWS Services. "
+            />
+            <Experience
               jobName="FrontEnd skils:"
               jobDescription=" Javascript ES6, html, css, sass, React, Redux, Redux-saga, contextApi, bootstrap, sementic ui, matrial ui,styled-components, React-Hooks,GraphQL-Apollo,
               React-performance,testing mobile-support, progressive-web-app, 
@@ -75,10 +82,10 @@ class Resume extends Component {
               jobName="BackEnd skils :"
               jobDescription=" NodeJs, express, MVC, SQL(sequelize), NoSql(mongodb) , sending Emails, JWT for Auth, Validation (Express-validator), File upload and download, pagination, REST APIs, GraphQL APIs, prisma, grapql -yoga, testing. "
             />
-            <Experience
+            {/* <Experience
               jobName="DevOpes & Advanced skils :"
               jobDescription=" Typescript, Doker, CI/CD, Redis, code analysis, performance, Testing, security."
-            />
+            /> */}
             <hr style={{ borderTop: "3px solid #e22947" }} />
             <h2>Skills</h2>
             <Skills skill="javascript" progress={80} />

@@ -6,6 +6,7 @@ import {
   reactProjects,
   mernStackProjects,
   fireBaseProjects,
+  UX_projects,
 } from "./projectsData";
 
 class Projects extends Component {
@@ -19,8 +20,8 @@ class Projects extends Component {
       return (
         <div className="projects-grid">
           <Grid>
-            {reactProjects.map((card) => (
-              <ProjectCard key={card.id} card={card} />
+            {UX_projects.map((card) => (
+              <ProjectCard key={card.id} card={card} isUx={true} />
             ))}
           </Grid>
         </div>
@@ -29,13 +30,23 @@ class Projects extends Component {
       return (
         <div className="projects-grid">
           <Grid>
-            {mernStackProjects.map((card) => (
+            {reactProjects.map((card) => (
               <ProjectCard key={card.id} card={card} />
             ))}
           </Grid>
         </div>
       );
     } else if (this.state.activeTab === 2) {
+      return (
+        <div className="projects-grid">
+          <Grid>
+            {mernStackProjects.map((card) => (
+              <ProjectCard key={card.id} card={card} isMern={true} />
+            ))}
+          </Grid>
+        </div>
+      );
+    } else if (this.state.activeTab === 3) {
       return (
         <div className="projects-grid">
           <Grid>
@@ -56,6 +67,7 @@ class Projects extends Component {
           onChange={(tabId) => this.setState({ activeTab: tabId })}
           ripple
         >
+          <Tab>UI/UX</Tab>
           <Tab>React</Tab>
           <Tab>MERN Stack</Tab>
           <Tab>FireBase</Tab>
