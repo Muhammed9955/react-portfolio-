@@ -67,11 +67,21 @@ export const UX_projects = [
   },
   {
     id: "1",
-    name: "MyMeubel res",
+    name: "MyMeubel ",
     des: `MyMeubel mobile responsive`,
     background: "url(https://i.ibb.co/HKpWLZ1/Group-654.png) center / cover",
     behance: "https://www.behance.net/gallery/103359437/MyMeubel",
     liveDemo:
       "https://xd.adobe.com/view/3a3542cb-9d4e-48c1-7001-3e6046b9ea45-4c04/",
+  },
+  {
+    id: "2",
+    name: "Furniture APP",
+    des: ` e-commerce App for furniture`,
+    background: "url(https://i.ibb.co/vhN0F6S/Group-794.png) center / cover",
+    behance:
+      "https://www.behance.net/gallery/103385159/e-commerce-App-for-furniture?",
+    liveDemo:
+      "https://xd.adobe.com/view/81ba98a9-06de-44a4-78de-bc37131d865c-f78b/",
   },
 ];
