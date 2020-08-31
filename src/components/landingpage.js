@@ -39,7 +39,7 @@ class Landing extends Component {
 
               <p>
                 HTML/CSS | JavaScript | React | NodeJS | Express | MongoDB |
-                Material UI | Semantic UI
+                Material UI | Semantic UI | Adobe Xd
               </p>
 
               <div

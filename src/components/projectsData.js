@@ -76,12 +76,21 @@ export const UX_projects = [
   },
   {
     id: "2",
-    name: "Furniture APP",
+    name: "Furniture App",
     des: ` e-commerce App for furniture`,
     background: "url(https://i.ibb.co/vhN0F6S/Group-794.png) center / cover",
     behance:
       "https://www.behance.net/gallery/103385159/e-commerce-App-for-furniture?",
     liveDemo:
       "https://xd.adobe.com/view/81ba98a9-06de-44a4-78de-bc37131d865c-f78b/",
+  },
+  {
+    id: "3",
+    name: "GetBed App",
+    des: ` GetBed  is vacation rental online marketplace concept, offers arrangement for lodging, primarily homestays, or tourism. inspired by Airbnb, Olx, shabindin.`,
+    background: "url(https://i.ibb.co/MPhnk93/Group-954.png) center / cover",
+    behance: "https://www.behance.net/gallery/103422495/GetBed?",
+    liveDemo:
+      "https://xd.adobe.com/view/c8308f1b-e0e0-466d-640d-62b51d3f8dcb-be01/",
   },
 ];

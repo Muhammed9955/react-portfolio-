@@ -9,17 +9,19 @@ import {
   Cell,
 } from "react-mdl";
 
-const getTitleColor = (isMern, isUx) => {
-  if (isMern) {
-    return "#000";
-  } else if (isUx) {
-    return "#000";
-  } else {
-    return "#fff";
-  }
-};
-
 export default function ProjectCard({ card, isMern, isUx }) {
+  const getTitleColor = (isMern, isUx) => {
+    if (isMern) {
+      return "#000";
+    } else if (
+      isUx &&
+      (card.name === "Furniture App" || card.name === "GetBed App")
+    ) {
+      return "#fff";
+    } else {
+      return "#000";
+    }
+  };
   const { background, name, github, liveDemo, des, behance } = card;
   return (
     <div>
