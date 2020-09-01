@@ -67,7 +67,7 @@ export const UX_projects = [
   },
   {
     id: "1",
-    name: "MyMeubel ",
+    name: "MyMeubel",
     des: `MyMeubel mobile responsive`,
     background: "url(https://i.ibb.co/HKpWLZ1/Group-654.png) center / cover",
     behance: "https://www.behance.net/gallery/103359437/MyMeubel",

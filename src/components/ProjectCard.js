@@ -13,13 +13,10 @@ export default function ProjectCard({ card, isMern, isUx }) {
   const getTitleColor = (isMern, isUx) => {
     if (isMern) {
       return "#000";
-    } else if (
-      isUx &&
-      (card.name === "Furniture App" || card.name === "GetBed App")
-    ) {
-      return "#fff";
-    } else {
+    } else if (isUx && card.name === "MyMeubel") {
       return "#000";
+    } else {
+      return "#fff";
     }
   };
   const { background, name, github, liveDemo, des, behance } = card;
