@@ -60,7 +60,7 @@ export const fireBaseProjects = [
     background:
       "url(https://en.instagram-brand.com/wp-content/uploads/2016/11/Glyph-Icon-hero.png) center / cover",
     github: "https://github.com/Muhammed9955/instgagram-clone",
-    liveDemo: "https://instagram-clone-react-c964b.web.app/",
+    liveDemo: "https://instagram-clone-95.netlify.app/",
   },
 ];
 export const UX_projects = [
