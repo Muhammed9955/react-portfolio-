@@ -58,7 +58,7 @@ export const fireBaseProjects = [
     name: "Instagram clone",
     des: "Instagram clone using react and firebase for db, auth and deployment",
     background:
-      "urlhttps://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTHEFmoqK_v7mLPfgxUDKBbhTcuJFZ4cPLKng&usqp=CAU) center / cover",
+      "url(https://en.instagram-brand.com/wp-content/uploads/2016/11/Glyph-Icon-hero.png) center / cover",
     github: "https://github.com/Muhammed9955/instgagram-clone",
     liveDemo: "https://instagram-clone-react-c964b.web.app/",
   },
