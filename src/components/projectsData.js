@@ -29,6 +29,16 @@ export const reactProjects = [
     github: "https://github.com/Muhammed9955/react-phone-store",
     liveDemo: "https://react-phone-store-95.netlify.app/",
   },
+  {
+    id: "5",
+    name: "Phone Store",
+    des:
+      "Lyrics search engine using React.js,ContextAPi for state management, Bootstrap.",
+    background:
+      "url(https://c4.wallpaperflare.com/wallpaper/733/808/870/reactjs-facebook-javascript-minimalism-wallpaper-preview.jpg) center / cover",
+    github: "https://github.com/Muhammed9955/Lyrics_Finder",
+    liveDemo: "https://lyricfinder9955.netlify.app/",
+  },
 ];
 
 export const mernStackProjects = [
