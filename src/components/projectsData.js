@@ -31,7 +31,7 @@ export const reactProjects = [
   },
   {
     id: "5",
-    name: "Phone Store",
+    name: "Lyrics Finder",
     des:
       "Lyrics search engine using React.js,ContextAPi for state management, Bootstrap.",
     background:
