@@ -52,6 +52,15 @@ export const mernStackProjects = [
     github: "https://github.com/Muhammed9955/DevConnector",
     liveDemo: "https://serene-ridge-93937.herokuapp.com/",
   },
+  {
+    id: "2",
+    name: "Shop app",
+    des: "e-commerce app using Mern stack ",
+    background:
+      "url(https://miro.medium.com/max/2800/0*QrGJeWvArCjF2BuV.jpg) center / cover",
+    github: "https://github.com/Muhammed9955/shop_app_mern",
+    liveDemo: "https://shop-app-mern.herokuapp.com/",
+  },
 ];
 export const fireBaseProjects = [
   {
