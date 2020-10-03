@@ -65,11 +65,11 @@ class Landing extends Component {
                 </a>
                 {/* Facebook */}
                 <a
-                  href="https://www.facebook.com/mohamed.khaled.524"
+                  href="https://www.linkedin.com/in/muhammed-khaled-768b25176/"
                   rel="noopener noreferrer"
                   target="_blank"
                 >
-                  <i class="facebook icon" aria-hidden="true"></i>
+                  <i class="linkedin icon" aria-hidden="true"></i>
                 </a>
                 <a
                   href="https://www.behance.net/muhammedkhaled4"

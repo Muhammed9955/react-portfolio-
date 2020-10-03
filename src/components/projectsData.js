@@ -55,7 +55,7 @@ export const mernStackProjects = [
   {
     id: "2",
     name: "Shop app",
-    des: "e-commerce app using Mern stack ",
+    des: "e-commerce app using Mern stack",
     background:
       "url(https://miro.medium.com/max/2800/0*QrGJeWvArCjF2BuV.jpg) center / cover",
     github: "https://github.com/Muhammed9955/shop_app_mern",
@@ -80,6 +80,16 @@ export const fireBaseProjects = [
       "url(https://en.instagram-brand.com/wp-content/uploads/2016/11/Glyph-Icon-hero.png) center / cover",
     github: "https://github.com/Muhammed9955/instgagram-clone",
     liveDemo: "https://instagram-clone-95.netlify.app/",
+  },
+  {
+    id: "",
+    name: "Social media app",
+    des:
+      "Social media app using react and firebase for db, auth , backend API endpoints using cloud funtions and notification functionality using firebase trigers  ",
+    background:
+      "url(https://en.instagram-brand.com/wp-content/uploads/2016/11/Glyph-Icon-hero.png) center / cover",
+    github: "https://github.com/Muhammed9955/social-media-app-firebase",
+    liveDemo: "https://social-media-app-fb.netlify.app/",
   },
 ];
 export const UX_projects = [
