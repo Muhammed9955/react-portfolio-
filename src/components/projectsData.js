@@ -87,7 +87,7 @@ export const fireBaseProjects = [
     des:
       "Social media app using react and firebase for db, auth , backend API endpoints using cloud funtions and notification functionality using firebase trigers  ",
     background:
-      "url(https://en.instagram-brand.com/wp-content/uploads/2016/11/Glyph-Icon-hero.png) center / cover",
+      "url(https://cdn-media-1.freecodecamp.org/images/0*dRRGbswavkQQyO_P.png) center / cover",
     github: "https://github.com/Muhammed9955/social-media-app-firebase",
     liveDemo: "https://social-media-app-fb.netlify.app/",
   },
