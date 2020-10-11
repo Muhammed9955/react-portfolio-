@@ -140,6 +140,6 @@ export const graphql_projects = [
     background:
       "url(https://labs.tadigital.com/wp-content/uploads/2019/09/graphql.png ) center / cover",
     github: "https://github.com/Muhammed9955/social-media-app-Graphql-Clinet",
-    liveDemo: "https://social-media-app-graphq.netlify.app/",
+    liveDemo: "https://social-media-app-graphql.netlify.app/",
   },
 ];
