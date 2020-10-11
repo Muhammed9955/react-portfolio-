@@ -9,9 +9,12 @@ import {
   Cell,
 } from "react-mdl";
 
-export default function ProjectCard({ card, isMern, isUx }) {
-  const getTitleColor = (isMern, isUx) => {
+export default function ProjectCard({ card, isMern, isUx, titleColor }) {
+  const getTitleColor = () => {
     if (isMern) {
+      return "#000";
+    }
+    if (titleColor) {
       return "#000";
     } else if (isUx && card.name === "MyMeubel") {
       return "#000";
@@ -26,7 +29,7 @@ export default function ProjectCard({ card, isMern, isUx }) {
         <Card shadow={5} style={{ width: "300px", margin: "auto" }}>
           <CardTitle
             style={{
-              color: getTitleColor(isMern, isUx),
+              color: getTitleColor(),
               height: "176px",
               background: `${background}`,
               boxShadow: `0px 5px 10px rgba(0, 0, 000, .3)`,

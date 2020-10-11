@@ -7,6 +7,7 @@ import {
   mernStackProjects,
   fireBaseProjects,
   UX_projects,
+  graphql_projects,
 } from "./projectsData";
 
 class Projects extends Component {
@@ -56,6 +57,16 @@ class Projects extends Component {
           </Grid>
         </div>
       );
+    } else if (this.state.activeTab === 4) {
+      return (
+        <div className="projects-grid">
+          <Grid>
+            {graphql_projects.map((card) => (
+              <ProjectCard key={card.id} card={card} titleColor="black" />
+            ))}
+          </Grid>
+        </div>
+      );
     }
   }
 
@@ -72,6 +83,7 @@ class Projects extends Component {
             <Tab>React</Tab>
             <Tab>MERN Stack</Tab>
             <Tab>FireBase</Tab>
+            <Tab>GraphQL</Tab>
           </Tabs>
         </div>
 

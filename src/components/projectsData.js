@@ -132,3 +132,14 @@ export const UX_projects = [
       "https://xd.adobe.com/view/c8308f1b-e0e0-466d-640d-62b51d3f8dcb-be01/",
   },
 ];
+export const graphql_projects = [
+  {
+    id: "0",
+    name: "Social media app",
+    des: `social media app with auth,post a post , like, comment on featueres, made by ReactJs for frontend , nodejs, graphql apollo server , monogodb for backend  `,
+    background:
+      "url(https://labs.tadigital.com/wp-content/uploads/2019/09/graphql.png ) center / cover",
+    github: "https://github.com/Muhammed9955/social-media-app-Graphql-Clinet",
+    liveDemo: "https://social-media-app-graphq.netlify.app/",
+  },
+];
