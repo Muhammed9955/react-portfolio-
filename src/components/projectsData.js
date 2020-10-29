@@ -1,5 +1,15 @@
 export const reactProjects = [
   {
+    id: "1",
+    name: "Netflix Clone",
+    des:
+      "Netflix clone using reactjs and TMDb for movies data ",
+    background:
+      "url(https://c4.wallpaperflare.com/wallpaper/733/808/870/reactjs-facebook-javascript-minimalism-wallpaper-preview.jpg) center / cover",
+    github: "https://github.com/Muhammed9955/netflix-clone-2",
+    liveDemo: "https://netflix-clone-95.netlify.app/",
+  },
+  {
     id: "2",
     name: "Beach Resort",
     des:
