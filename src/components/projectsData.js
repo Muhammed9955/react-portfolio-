@@ -1,16 +1,24 @@
 export const reactProjects = [
   {
+    id: "0",
+    name: "Netflix clone ",
+    des:
+      "Netflix clone",
+    background:
+      "url(https://c4.wallpaperflare.com/wallpaper/733/808/870/reactjs-facebook-javascript-minimalism-wallpaper-preview.jpg) center / cover",
+    github: "github.com/Muhammed9955/netflix-clone-2",
+    liveDemo: "https://netflix-clone-95.netlify.app/",
+  },
     {
       id: "1",
-      name: "Netflix clone ",
+      name: "Covid-19 Tracker ",
       des:
-        "Netflix clone",
+        "Covid_19 Tracker is a daily tracker app for new cases, recoveries or deaths using reactjs, leafletjs for map, chartjs and disease.sh for data  ",
       background:
         "url(https://c4.wallpaperflare.com/wallpaper/733/808/870/reactjs-facebook-javascript-minimalism-wallpaper-preview.jpg) center / cover",
-      github: "github.com/Muhammed9955/netflix-clone-2",
-      liveDemo: "https://netflix-clone-95.netlify.app/",
-    },
-    {
+      github: "https://github.com/Muhammed9955/react-covid-tracker",
+      liveDemo: "https://covid-19-tracker-95.netlify.app/",
+    },{
     id: "2",
     name: "Beach Resort",
     des:
