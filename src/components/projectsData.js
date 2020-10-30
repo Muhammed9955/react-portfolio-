@@ -1,15 +1,15 @@
 export const reactProjects = [
   {
-    id: "0",
-    name: "Covid-19 Tracker ",
-    des:
-      "Covid_19 Tracker is a daily tracker app for new cases, recoveries or deaths using reactjs, leafletjs for map, chartjs and disease.sh for data  ",
-    background:
-      "url(https://c4.wallpaperflare.com/wallpaper/733/808/870/reactjs-facebook-javascript-minimalism-wallpaper-preview.jpg) center / cover",
-    github: "https://github.com/Muhammed9955/react-covid-tracker",
-    liveDemo: "https://covid-19-tracker-95.netlify.app/",
-  },
-  {
+    {
+      id: "1",
+      name: "Netflix clone ",
+      des:
+        "Netflix clone",
+      background:
+        "url(https://c4.wallpaperflare.com/wallpaper/733/808/870/reactjs-facebook-javascript-minimalism-wallpaper-preview.jpg) center / cover",
+      github: "github.com/Muhammed9955/netflix-clone-2",
+      liveDemo: "https://netflix-clone-95.netlify.app/",
+    },
     id: "2",
     name: "Beach Resort",
     des:
@@ -75,6 +75,15 @@ export const mernStackProjects = [
 export const fireBaseProjects = [
   {
     id: "0",
+    name: "Amazon Clone",
+    des: "Amazon clone app using (react ,firebase)",
+    background:
+      "url(https://cdn-media-1.freecodecamp.org/images/0*dRRGbswavkQQyO_P.png) center / cover",
+    github: "https://github.com/Muhammed9955/react-challenge-amazon-clone",
+    liveDemo: "https://amazon-clone-95.netlify.app/",
+  },
+  {
+    id: "1",
     name: "Crwn-clothing",
     des: "clothing e-commerce react app (react ,redux, firebase)",
     background:
@@ -83,7 +92,7 @@ export const fireBaseProjects = [
     liveDemo: "https://crwn-live.herokuapp.com/",
   },
   {
-    id: "1",
+    id: "2",
     name: "Instagram clone",
     des: "Instagram clone using react and firebase for db, auth and deployment",
     background:
@@ -92,7 +101,7 @@ export const fireBaseProjects = [
     liveDemo: "https://instagram-clone-95.netlify.app/",
   },
   {
-    id: "",
+    id: "3",
     name: "Social media app",
     des:
       "Social media app using react and firebase for db, auth , backend API endpoints using cloud funtions and notification functionality using firebase trigers  ",
