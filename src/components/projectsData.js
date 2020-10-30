@@ -10,6 +10,7 @@ export const reactProjects = [
       github: "github.com/Muhammed9955/netflix-clone-2",
       liveDemo: "https://netflix-clone-95.netlify.app/",
     },
+    {
     id: "2",
     name: "Beach Resort",
     des:
