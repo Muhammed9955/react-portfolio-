@@ -6,7 +6,7 @@ export const reactProjects = [
       "Netflix clone",
     background:
       "url(https://c4.wallpaperflare.com/wallpaper/733/808/870/reactjs-facebook-javascript-minimalism-wallpaper-preview.jpg) center / cover",
-    github: "github.com/Muhammed9955/netflix-clone-2",
+    github: "https://github.com/Muhammed9955/netflix-clone-2",
     liveDemo: "https://netflix-clone-95.netlify.app/",
   },
     {
